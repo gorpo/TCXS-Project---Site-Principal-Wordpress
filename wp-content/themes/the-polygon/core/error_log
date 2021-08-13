@@ -1,0 +1,4 @@
+[07-Mar-2020 22:46:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/themes/the-polygon/core/yit.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/themes/the-polygon/core/yit.php on line 40

@@ -1,0 +1,4 @@
+[07-Mar-2020 22:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/themes/the-polygon/theme/plugins/yit-framework/modules.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/themes/the-polygon/theme/plugins/yit-framework/modules.php on line 3

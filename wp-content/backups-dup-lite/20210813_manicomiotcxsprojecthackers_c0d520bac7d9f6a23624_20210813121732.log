@@ -1,0 +1,57 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 13 de August de 2021 12:18
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.2
+WORDPRESS:	5.1.10
+PHP INFO:	7.3.23 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 32MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20210813_manicomiotcxsprojecthackers_c0d520bac7d9f6a23624_20210813121732_database.sql
+SQL FILE SIZE: 12.29MB (12883149)
+SQL FILE TIME: 2021-08-13 12:18:34
+SQL RUNTIME: 11.43 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/u923273795/domains/tcxsproject.com.br/public_html
+ARCHIVE FILE: 20210813_manicomiotcxsprojecthackers_c0d520bac7d9f6a23624_20210813121732_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	898.29MB
+STATS:	Dirs 2,260 | Files 22,188
+SQL ADDED: 20210813_manicomiotcxsprojecthackers_c0d520bac7d9f6a23624_20210813121732_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 24448
+    [filename] => /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/backups-dup-lite/tmp/20210813_manicomiotcxsprojecthackers_c0d520bac7d9f6a23624_20210813121732_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 24447
+[PHP ERR][NOTICE] MSG:mysqli_query(): send of 115 bytes failed with errno=32 Broken pipe [CODE:8|FILE:/home/u923273795/domains/tcxsproject.com.br/public_html/wp-includes/wp-db.php|LINE:2007]
+shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, wp_session_write_close, WP_Session::get_instance, WP_Session->__construct, WP_Session->read_data, get_option, wpdb->get_row, wpdb->query, wpdb->_do_query, mysqli_query, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:Error while sending QUERY packet. PID=24688 [CODE:2|FILE:/home/u923273795/domains/tcxsproject.com.br/public_html/wp-includes/wp-db.php|LINE:2007]
+shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, wp_session_write_close, WP_Session::get_instance, WP_Session->__construct, WP_Session->read_data, get_option, wpdb->get_row, wpdb->query, wpdb->_do_query, mysqli_query, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:Cannot modify header information - headers already sent by (output started at /home/u923273795/domains/tcxsproject.com.br/public_html/wp-includes/functions.php:4221) [CODE:2|FILE:/home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/plugins/yith-woocommerce-social-login/includes/wp_session/class-wp-session.php|LINE:136]
+shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, wp_session_write_close, WP_Session::get_instance, WP_Session->__construct, WP_Session->set_cookie, setcookie, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][ISSUE] MSG:Function create_function() is deprecated [CODE:8192|FILE:/home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/themes/the-polygon/theme/hooks.php|LINE:83]
+DUP_Handler::shutdown, DUP_Handler::error, DUP_Handler::getMessage

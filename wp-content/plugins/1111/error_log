@@ -1,0 +1,4 @@
+[07-Mar-2020 22:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/plugins/1111/Ultimate_VC_Addons.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/u923273795/domains/tcxsproject.com.br/public_html/wp-content/plugins/1111/Ultimate_VC_Addons.php on line 15
